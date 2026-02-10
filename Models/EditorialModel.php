@@ -1,4 +1,15 @@
 <?php
+/**
+ * Clase EditorialModel con extensión Query
+ * 
+ * Gestiona los datos de las editoriales pudiendo ver el estado, verificar si existe o no,
+ * insertar, editar y borrar.
+ * 
+ * @author Álvaro Allén
+ * @since 10/02/2026
+ * @package model
+ */
+
 class EditorialModel extends Query
 {
     public function __construct()

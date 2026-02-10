@@ -1,4 +1,14 @@
 <?php
+/**
+ * Clase ConfiguracionModel con extensión de Query
+ * 
+ * Configura el modelo recibiendo teniendo como atributos:
+ * id, nombre, telefono, direccion, correo e imagen.
+ * 
+ * @author Álvaro Allén
+ * @since 10/02/2026
+ * @package model
+ */
 class ConfiguracionModel extends Query{
     protected $id, $nombre, $telefono, $direccion, $correo, $img;
     public function __construct()

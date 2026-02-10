@@ -1,4 +1,17 @@
 <?php
+
+/**
+ * Clase UsuarioModel con extensión de Query
+ * 
+ * Gestiona los usuarios que se pueden conectar a la aplicación.
+ * Puede registrar un nuevo usuario, modificar uno ya existente,
+ * editar información, realizar una acción sobre un usuario, 
+ * borrar un usuario y gestionar sus permisos.
+ * 
+ * @author Álvaro Allén
+ * @since 10/02/2026
+ * @package model
+ */
 class UsuariosModel extends Query{
     private $usuario, $nombre, $clave, $id, $estado;
     public function __construct()
