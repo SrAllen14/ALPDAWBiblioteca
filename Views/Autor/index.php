@@ -73,4 +73,7 @@
         </div>
     </div>
 </div>
+<footer>
+    <a href="doc/index.php">Documentación generada</a>
+</footer>
 <?php include "Views/Templates/footer.php"; ?>
