@@ -1,4 +1,13 @@
 <?php
+/**
+ * Clase EstudiantesModel con extensión de Query
+ * 
+ * Clase que gestiona la insercción, editado, actualización y borrado de estudiantes.
+ * 
+ * @author Álvaro Allén
+ * @since 10/02/2026
+ * @package model
+ */
 class EstudiantesModel extends Query{
     public function __construct()
     {

@@ -1,4 +1,15 @@
 <?php
+/**
+ * Clase LibrosModel con extensión Query
+ * 
+ * Gestiona los libros de la bibioteca pudiendo 
+ * crear uno nuevo, editar los ya existentes, actualizar información,
+ * cambiar su estado y buscar libros por título.
+ * 
+ * @author Álvaro Allén
+ * @since 10/02/2026
+ * @package model
+ */
 class LibrosModel extends Query
 {
     public function __construct()

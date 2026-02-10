@@ -1,4 +1,15 @@
 <?php
+/**
+ * Clase MateriaModel con extensión de Query
+ * 
+ * Gestiona las materias que pueden tratar cada libro pudiendo
+ * insertar una materia nueva, editar alguna ya existente, actualizar información, 
+ * modificar su estado, verficar permisos y buscar materias por nombre.
+ * 
+ * @author Álvaro Allén
+ * @since 10/02/2026
+ * @package model
+ */
 class MateriaModel extends Query
 {
     public function __construct()

@@ -1,4 +1,17 @@
 <?php
+
+/**
+ * Clase PrestamosModel con extensión de Query
+ * 
+ * Gestiona los prestamos de libros que se realizan en la biblioteca.
+ * Se puede insertar un nuevo prestamo, actualizar uno ya existente,
+ * seleccionar datos, cantidad de libros que hay de un ejemplar y 
+ * verificar permisos.
+ * 
+ * @author Álvaro Allén
+ * @since 10/02/2026
+ * @package model
+ */
 class PrestamosModel extends Query
 {
     public function __construct()

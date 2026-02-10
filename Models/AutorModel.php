@@ -1,4 +1,13 @@
 <?php
+/**
+ * Clase AutoModel con extensión de Query
+ * 
+ * Prepara las consultas para que las procese la base de datos.
+ * 
+ * @author Álvaro Allén
+ * @since 10/02/2026
+ * @package model
+ */
 class AutorModel extends Query
 {
     public function __construct()
